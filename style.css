@@ -1,11 +1,185 @@
-body {
-    background: black;
+.casio {
+    height: 750px;
+    width: 600px;
+    border: red solid 5px;
+    position: relative;
+    left: 650px;
 }
 
-.time {
-    color: blue;
-    font-size: 100px;
+.display-screen {
+    border: black solid 1px;
+    height: 100px;
+    width: 500px;
     position: relative;
-    top: 300px;
-    left: 750px;
+    top: 50px;
+    left: 45px;
+    font-size: 50px;
+
+}
+
+.sum {
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 45px;
+}
+
+.sub {
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+}
+
+.multi {
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+.divi {
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 130px;
+}
+
+.bay {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 45px;
+}
+
+.tam {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+.chin {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.bang {
+    background: rgba(0, 106, 255, 0.707);
+    color: aliceblue;
+    font-size: 30px;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    bottom: 180px;
+    left: 443px;
+}
+
+.bon {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 45px;
+}
+
+.nam {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 70px;
+}
+
+.sau {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.mot {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 145px;
+    left: 45px;
+}
+
+.hai {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 145px;
+    left: 70px;
+}
+
+.ba {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 145px;
+    left: 100px;
+}
+
+.khong {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 170px;
+    left: 45px;
+}
+
+.cham {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 170px;
+    left: 70px;
+}
+
+.C {
+    background: aliceblue;
+    font-size: 30px;
+    height: 70px;
+    width: 100px;
+    position: relative;
+    top: 170px;
+    left: 100px;
 }

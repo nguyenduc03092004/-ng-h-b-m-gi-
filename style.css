@@ -1,66 +1,11 @@
 body {
-    background: orange;
-}
-
-.stop-watch {
-    font-size: 50px;
-    color: aliceblue;
-    margin-left: 750px;
-}
-
-.text2 {
-    font-size: 50px;
-    color: aliceblue;
-    margin-left: 510px;
+    background: black;
 }
 
 .time {
-    font-size: 50px;
-    color: aliceblue;
+    color: blue;
+    font-size: 100px;
     position: relative;
-    left: 830px;
-}
-
-
-
-
-.start {
-    font-size: 45px;
-    position: relative;
-    left: 500px;
-    color: aliceblue;
-    border: aliceblue solid 1px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-}
-
-.stop {
-    color: aliceblue;
-    font-size: 45px;
-    position: relative;
-    left: 800px;
-    bottom: 145px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 100px;
-    border: aliceblue solid 1px;
-}
-
-.resert {
-    color: aliceblue;
-    font-size: 45px;
-    position: relative;
-    left: 1050px;
-    width: 200px;
-    height: 100px;
-    bottom: 292px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: aliceblue solid 1px;
+    top: 300px;
+    left: 750px;
 }

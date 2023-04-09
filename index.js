@@ -1,53 +1,13 @@
-let start = document.querySelector(`.start`)
-let stopp = document.querySelector(`.stop`)
-let resert = document.querySelector(`.resert`)
+
 let time = document.querySelector(`.time`)
-let newtimeMS = 0;
-let newtimes = 0;
-let isStart = false;
+setInterval(() => {
+    const now = new Date();
 
-start.onclick = () => {
-    if (!isStart) {
-        console.log(`start`)
-        starttime = setInterval(function () {
-            newtimeMS++;
+    // Lấy giờ, phút, giây hiện tại
+    const hour = now.getHours();
+    const minute = now.getMinutes();
+    const second = now.getSeconds();
 
-            if (newtimeMS > 99) {
-                newtimes++;
-                newtimeMS = 0;
-            }
-            if (newtimes == 60) {
-                newtimeMS = 0;
-                newtimes = 0;
-            }
-
-            time.textContent = `${newtimes} : ${newtimeMS}`
-        }, 10)
-        isStart = true
-    }
-}
-
-stopp.onclick = () => {
-    console.log(`stop`)
-    clearInterval(starttime)
-    isStart = false
-}
-resert.onclick = () => {
-    console.log(`resert`)
-    newtimeMS = 0;
-    newtimes = 0;
-    clearInterval(starttime)
-    time.textContent = `${newtimes} : ${newtimeMS}`
-    isStart = false
-}
-
-
-
-
-
-
-
-
-
-
-
+    // Hiển thị thời gian lên giao diện
+    time.textContent = `${hour}:${minute}:${second} AM`;
+}, 1000)
